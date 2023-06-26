@@ -70,7 +70,7 @@ footer{
 /* links */
 .github a i:hover , .codepen a i:hover{
     background: #2B3035;
-    transition: .5s;
+    transition: .3s ease-in-out;
     border-radius: 27px;
 }
 .insta a i:hover{
@@ -98,6 +98,32 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
     transition: .5s;
     padding: 1px;
     border-radius: 5px;
+}
+/* Resume */
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume{
+    margin-top: 10px;
+}
+.resume a{
+    letter-spacing: 2px;
+    font-size: medium;
+}
+.resume-link{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+}
+.resume-link:hover {
+        background-color: #CCCCCC;
 }
 @media screen and (max-width:480px) {
     .mail a i:hover{
