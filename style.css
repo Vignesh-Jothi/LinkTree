@@ -111,6 +111,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 .resume a{
     letter-spacing: 2px;
     font-size: medium;
+    color: #000000;
 }
 .resume-link{
     display: inline-block;
