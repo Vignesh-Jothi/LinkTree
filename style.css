@@ -67,35 +67,36 @@ footer{
     text-align: center;
     font-size: 15px;
   }
-/* links */
-.github a i:hover , .codepen a i:hover{
+
+  /* links */
+.github a i:hover, .codepen a i:hover {
     background: #2B3035;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
     border-radius: 27px;
 }
-.insta a i:hover{
-transition: .5s;
-border-radius: 5px;
-background: #833ab4;  
-background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.twitter a i:hover{
+.insta a i:hover {
+    transition: 0.5s;
     border-radius: 5px;
-    transition: .5s;
-    background: #00B4DB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
-.linked a i:hover{
+.twitter a i:hover {
+    border-radius: 5px;
+    transition: 0.5s;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+}
+.linked a i:hover {
     padding: 2px;
     border-radius: 5px;
-    transition: .5s;
+    transition: 0.5s;
     background: #0072AC;
 }
-.mail a i:hover{
+.mail a i:hover {
     background: #870000;
-    transition: .5s;
+    transition: 0.5s;
     padding: 1px;
     border-radius: 5px;
 }

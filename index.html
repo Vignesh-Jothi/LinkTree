@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="shortcut icon" href="favi.svg" type="image/x-icon">
     <title>LinkTree</title>
 
@@ -70,7 +71,7 @@
       <!-- Footer -->
         <footer>
             <div class="bottom-text">
-                <p>2023 © 
+                <p><span id="current-year"></span> © 
                     <a href="mailto:vigneshjothishwaran@gmail.com">Vignesh-Jothi</a>
                 </p>
             </div>
@@ -78,13 +79,19 @@
 </div>
 <script>
     var typed = new Typed(".typing", {
-        strings: ["Web developer", "Freelancer"],
+        strings: ["Backend Web developer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         cursorChar: ' |',
         smartBackspace: true,
         loop: true
     });
+    // jQuery document ready function
+    $(document).ready(function(){
+            // Update the current year dynamically
+            var currentYear = new Date().getFullYear();
+            $("#current-year").text(currentYear);
+        });
 </script>
 </body>
 </html>
