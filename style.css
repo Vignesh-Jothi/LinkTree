@@ -69,10 +69,14 @@ footer{
   }
 
   /* links */
-.github a i:hover, .codepen a i:hover {
+.github a i:hover, .hackerrank a i:hover {
     background: #2B3035;
     transition: 0.3s ease-in-out;
     border-radius: 27px;
+}
+.hackerrank-icon {
+    width: 24px;
+    height: 24px;
 }
 .insta a i:hover {
     transition: 0.5s;
