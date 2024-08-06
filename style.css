@@ -108,7 +108,7 @@ footer{
 .resume{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .resume{
     margin-top: 10px;
