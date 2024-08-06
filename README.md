@@ -1,10 +1,10 @@
 # LinkTree
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)](https://github.com/navendu-pottekkat/awesome-readme/releases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)](https://github.com/navendu-pottekkat/awesome-readme/commits)
-[![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)](https://github.com/navendu-pottekkat/awesome-readme/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)](https://github.com/navendu-pottekkat/awesome-readme/pulls)
-[![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)](https://github.com/navendu-pottekkat/awesome-readme/blob/main/LICENSE)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/vignesh-jothi/LinkTree?include_prereleases)](https://github.com/vignesh-jothi/LinkTree/releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/commits)
+[![GitHub issues](https://img.shields.io/github/issues-raw/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/pulls)
+[![GitHub](https://img.shields.io/github/license/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/blob/main/LICENSE)
 
 ## Description
 
@@ -58,7 +58,7 @@ We welcome contributions to enhance LinkTree! To contribute:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/navendu-pottekkat/awesome-readme/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/vignesh-jothi/LinkTree/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 
