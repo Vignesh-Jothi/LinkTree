@@ -1,0 +1,25 @@
+{
+  "name": "linktree",
+  "version": "1.0.0",
+  "description": "Modern LinkTree with optimized architecture",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "postcss assets/css/*.css --dir dist/css --use postcss-import autoprefixer cssnano",
+    "build:js": "terser assets/js/main.js -o dist/js/main.min.js",
+    "watch": "npm run dev",
+    "clean": "rm -rf dist/*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "terser": "^5.19.2"
+  },
+  "keywords": ["linktree", "portfolio", "webdev"],
+  "author": "Vignesh Jothi",
+  "license": "MIT"
+}

@@ -1,0 +1,106 @@
+/* Responsive Styles - Media Queries for Different Screen Sizes */
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .name {
+        font-size: 2rem;
+    }
+
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .links {
+        gap: 12px;
+    }
+
+    .links a {
+        width: 45px;
+        height: 45px;
+        line-height: 41px;
+        font-size: 18px;
+    }
+
+    .info-section {
+        margin: 12px 0;
+        padding: 16px;
+        max-width: 420px;
+    }
+
+    .info-text {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+    }
+
+    .info-text::after {
+        width: 65px;
+        height: 2px;
+    }
+
+    .stats {
+        gap: 12px;
+    }
+
+    .stat-item .resume-link {
+        padding: 9px 15px;
+        font-size: 0.75rem;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .greeting, .role {
+        font-size: 0.95rem;
+    }
+
+    .name {
+        font-size: 1.6rem;
+    }
+
+    .avatar {
+        width: 90px;
+        height: 90px;
+    }
+
+    .links {
+        gap: 8px;
+    }
+
+    .links a {
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+        font-size: 16px;
+    }
+
+    .info-section {
+        margin: 10px 0;
+        padding: 12px;
+        width: 95%;
+        border-radius: 14px;
+    }
+
+    .info-text {
+        font-size: 0.85rem;
+        margin-bottom: 10px;
+    }
+
+    .info-text::after {
+        width: 55px;
+        height: 2px;
+    }
+
+    .stats {
+        gap: 10px;
+    }
+
+    .stat-item .resume-link {
+        padding: 8px 12px;
+        font-size: 0.7rem;
+    }
+}
