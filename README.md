@@ -1,6 +1,18 @@
 # LinkTree - Modern Portfolio
 
-A LinkTree-style portfolio website with modern animations and responsive design.
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/vignesh-jothi/LinkTree?include_prereleases)](https://github.com/vignesh-jothi/LinkTree/releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/commits)
+[![GitHub issues](https://img.shields.io/github/issues-raw/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/pulls)
+[![GitHub](https://img.shields.io/github/license/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/blob/main/LICENSE)
+
+## Description
+
+LinkTree is a tool that allows you to share multiple links on social media platforms efficiently. It's designed to help users consolidate various URLs into a single, easy-to-navigate page, enhancing the online presence and accessibility of your links.
+
+## Visual
+
+![Awesome ReadME](./docs/LinkPagev2.png)
 
 ## 📁 Project Structure
 
