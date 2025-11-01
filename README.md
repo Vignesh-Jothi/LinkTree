@@ -1,68 +1,128 @@
-# LinkTree
+# LinkTree - Modern Portfolio
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/vignesh-jothi/LinkTree?include_prereleases)](https://github.com/vignesh-jothi/LinkTree/releases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/commits)
-[![GitHub issues](https://img.shields.io/github/issues-raw/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/pulls)
-[![GitHub](https://img.shields.io/github/license/vignesh-jothi/LinkTree)](https://github.com/vignesh-jothi/LinkTree/blob/main/LICENSE)
+A LinkTree-style portfolio website with modern animations and responsive design.
 
-## Description
+## 📁 Project Structure
 
-LinkTree is a tool that allows you to share multiple links on social media platforms efficiently. It's designed to help users consolidate various URLs into a single, easy-to-navigate page, enhancing the online presence and accessibility of your links.
+```
+LinkTree/
+├── assets/                 # Static assets
+│   ├── css/               # Modular CSS files
+│   │   ├── base.css       # Variables, reset, body, container
+│   │   ├── components.css # Individual UI components
+│   │   ├── animations.css # Keyframes and animations
+│   │   ├── responsive.css # Media queries
+│   │   └── style.css      # Main CSS (imports all modules)
+│   ├── js/                # JavaScript files
+│   │   └── main.js        # Main application logic
+│   └── images/            # Image assets
+├── src/                   # Source files (for development)
+├── dist/                  # Production build output
+├── index.html             # Main HTML file
+├── build.sh              # Build script
+├── package.json          # Dependencies and scripts
+└── README.md             # This file
+```
 
-## Features
+## 🛠️ Development
 
-- **Easy Link Management:** Add, edit, and remove links effortlessly.
-- **Analytics:** Track link clicks and user engagement.
-- **Responsive Design:** Optimized for all devices, ensuring a seamless experience on mobile and desktop.
+### Build for Production
+```bash
+npm run build
+# or
+./build.sh
+```
 
-## Visual
+## 🎨 CSS Architecture
 
-![Awesome ReadME](https://github.com/user-attachments/assets/518ea2c0-dba3-4af4-bc8d-b24dbd8bc273)
+### Modular CSS Files
 
-## Installation
+1. **`base.css`** - Foundation styles
+   - CSS custom properties (variables)
+   - CSS reset
+   - Body and container styles
+   - Background effects
 
-To get started with LinkTree, follow these steps:
+2. **`components.css`** - Component-specific styles
+   - Greeting, avatar, role sections
+   - Links, info-section, footer
+   - Individual component styling
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/linktree.git
-    ```
-2. **Navigate to the project directory:**
-    ```bash
-    cd linktree
-    ```
+3. **`animations.css`** - Animation definitions
+   - All keyframes
+   - Animation timing and effects
+   - Hardware-accelerated transforms
 
-## Usage
+4. **`responsive.css`** - Responsive design
+   - Tablet breakpoints
+   - Mobile breakpoints
+   - Adaptive layouts
 
-After installation, you can access the LinkTree interface by navigating to `index.html` in your web browser. From here, you can manage your links and customize your LinkTree page.
 
-## Contributing
+## 🚀 Build Process
 
-We welcome contributions to enhance LinkTree! To contribute:
+The build process optimizes assets for production:
 
-1. **Fork the repository.**
-2. **Create a new branch:**
-    ```bash
-    git checkout -b feature/YourFeatureName
-    ```
-3. **Commit your changes:**
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-4. **Push to the branch:**
-    ```bash
-    git push origin feature/YourFeatureName
-    ```
-5. **Open a pull request.**
+1. **CSS Processing**: Combines modular CSS files
+2. **JavaScript Minification**: Reduces JS bundle size
+3. **Asset Optimization**: Compresses images and fonts
+4. **Cache Busting**: Adds version hashes for cache invalidation
 
-## License
+## 📱 Features
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/vignesh-jothi/LinkTree/blob/main/LICENSE) file for details.
+- **Responsive Design**: Works on all devices
+- **Smooth Animations**: CSS-based animations with hardware acceleration
+- **Modern UI**: Glassmorphism effects and gradients
+- **Accessibility**: Semantic HTML and keyboard navigation
+- **Performance**: Optimized loading and rendering
 
-## Acknowledgements
+## 🔧 Customization
 
-- Thanks to all contributors who have helped in developing this project.
-- Inspired by the need for an efficient link management tool on social media.
+### Adding New Components
+1. Create styles in `assets/css/components.css`
+2. Add responsive styles in `assets/css/responsive.css`
+3. Update animations in `assets/css/animations.css` if needed
 
----
+### Modifying Colors
+Update CSS custom properties in `assets/css/base.css`:
+```css
+:root {
+  --primary-bg: #000000;
+  --accent-color: #ffffff;
+  /* ... other variables */
+}
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make changes following the modular architecture
+4. Test performance impact
+5. Submit a pull request
+
+## � Deployment
+
+### GitHub Pages (Recommended)
+
+1. **Automatic Deployment**: The project includes GitHub Actions workflow for automatic deployment
+2. **Manual Setup**:
+   - Go to your repository settings
+   - Navigate to "Pages" section
+   - Select "Deploy from a branch"
+   - Choose `main` branch and `/docs` folder
+   - Save settings
+
+3. **Manual Build & Deploy**:
+   ```bash
+   ./build.sh
+   # Commit and push the docs/ folder
+   ```
+
+### Other Platforms
+
+The `dist/` folder contains production-ready files that can be deployed to:
+- Netlify
+- Vercel
+- AWS S3 + CloudFront
+- Any static web host
